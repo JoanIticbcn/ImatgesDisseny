@@ -47,10 +47,13 @@ nav a {
     text-decoration: none;
     margin-left: 4vw;
     margin-right: 4vw;
+    transition: all 0.3s ease-in-out;
 }
 
 nav a:hover {
-    text-decoration: underline;
+    transform: rotate3d(1, 2, -1, 360deg);
+    transition: all 0.7s ease-in-out;
+    color: yellow;
 }
 
 /*Propietats de la imatge de la pagina principal*/
