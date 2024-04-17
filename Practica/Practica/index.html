@@ -8,6 +8,14 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <title>Restaurant don camaron</title>
     <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script> 
+        $(document).ready(function(){
+          $("#sobre-nosaltres").click(function(){
+            $("#nosaltres").slideToggle("slow");
+          });
+        });
+        </script>
 </head>
 
 <body>
@@ -29,7 +37,7 @@
 
     </container>
     <main>
-        <h2>Sobre nosaltres</h2>
+        <h2 id="sobre-nosaltres">Sobre nosaltres</h2>
         <section id="nosaltres">
             <div class="nos"><img id="camaron" src="img/camaron.jpg" alt="logo del restaurant">
                 <p style="padding-top: 12px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ultrices
