@@ -72,17 +72,21 @@ container.img img {
         color: orange;
         top: 100%;
         left: 15%;
+        opacity: 0;
     }
 
     25% {
         color: rgb(226, 159, 35);
+        opacity: 0;
     }
 
     50% {
-        color: rgb(247, 204, 124);
+        color: orange;
+        opacity: 0;
     }
 
     100% {
+        opacity: 1;
         color: white;
         top: 30%;
         left: 15%;
